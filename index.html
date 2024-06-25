@@ -13,9 +13,10 @@
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
+<nav class="navbar navbar-expand-lg " style="background: rgb(53 124 171);">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <img class = "logo" src="images/la-sierra-logo-gold-white.svg" alt="School logo">
+        <a class="navbar-brand" href="#">Dr.B</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -25,7 +26,7 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link" href="syllabus/syllabus.html">Syllabus</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -43,23 +44,47 @@
                 </li>
             </ul>
         </div>
+
+
     </div>
 </nav>
 
 
+<div class="accordion accordion-flush" id="accordionFlushExample">
+    <div class="accordion-item">
+        <h2 class="accordion-header">
 
-<img src="images/la-sierra-logo-gold-white.svg" alt="School logo">
-<h1>If you have received this link, it means you've asked a redundant question and clearly haven't read my syllabus.</h1>
+            Q/A commonly asked questions
 
-<h2>Q/A commonly asked questions</h2>
-<ul>
-    <li>
-        Do you need to take my class?
-        <ul>
-            <li>Taking my class is essential, as it's a core requirement for graduation.</li>
-        </ul>
-    </li>
-</ul>
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                1. Do you need to take my class?
+            </button>
+        </h2>
+        <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Taking my class is essential, as it's a core requirement for graduation..</div>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                2. Will I respond to your emails outside of posted business hours?
+            </button>
+        </h2>
+        <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">I will not, as I value my personal time just as you do. </div>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                3. Should I, as a student, bring my parents to consult my teacher about my grade?
+            </button>
+        </h2>
+        <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">No, you shouldn't. Will your parents accompany you to a job interview? No, they won't, so it's best to handle it independently now.</div>
+        </div>
+    </div>
+</div>
 
 </body>
 </html>
